@@ -49,26 +49,26 @@
 		"check:types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@clerk/backend": "^3.0.1",
+		"@clerk/backend": "^3.4.2",
 		"@elysiajs/node": "^1.4.5",
-		"@hono/node-server": "^1.19.11",
-		"@tanstack/react-router": "^1.166.3",
-		"@tanstack/react-start": "^1.166.3",
+		"@hono/node-server": "^2.0.1",
+		"@tanstack/react-router": "^1.168.26",
+		"@tanstack/react-start": "^1.167.52",
 		"@types/express": "^5.0.6",
-		"@types/node": "^25.3.5",
-		"better-auth": "^1.5.4",
-		"drizzle-orm": "^0.45.1",
-		"elysia": "^1.4.27",
+		"@types/node": "^25.6.0",
+		"better-auth": "^1.6.9",
+		"drizzle-orm": "^0.45.2",
+		"elysia": "^1.4.28",
 		"express": "^5.2.1",
 		"fumadb": "^0.2.2",
-		"hono": "^4.12.5",
-		"mongodb": "^7.1.0",
-		"next": "^16.1.6",
-		"next-auth": "^4.24.13",
+		"hono": "^4.12.16",
+		"mongodb": "^7.2.0",
+		"next": "^16.2.4",
+		"next-auth": "^4.24.14",
 		"tsconfig": "workspace:*",
 		"tsup": "^8.5.1",
-		"typescript": "^5.9.3",
-		"vitest": "^4.0.18"
+		"typescript": "^6.0.3",
+		"vitest": "^4.1.5"
 	},
 	"peerDependencies": {
 		"@clerk/backend": "2.x.x || 3.x.x",
@@ -109,7 +109,7 @@
 	},
 	"dependencies": {
 		"urlpattern-polyfill": "^10.1.0",
-		"zod": "^4.3.6"
+		"zod": "^4.4.1"
 	},
 	"publishConfig": {
 		"access": "public"
