@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsdown";
 
 const config = defineConfig({
 	entry: ["./src/index.tsx", "./src/atom.tsx", "./src/uploadthing/index.ts"],
