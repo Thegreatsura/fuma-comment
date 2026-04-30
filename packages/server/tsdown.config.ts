@@ -8,4 +8,9 @@ export default defineConfig({
 	],
 	dts: true,
 	format: "esm",
+	target: "es2023",
+	platform: "neutral",
+	deps: {
+		onlyBundle: ["urlpattern-polyfill"],
+	},
 });

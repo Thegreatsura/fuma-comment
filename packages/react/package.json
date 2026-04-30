@@ -37,7 +37,17 @@
 	},
 	"peerDependencies": {
 		"react": "^19.x",
-		"react-dom": "^19.x"
+		"react-dom": "^19.x",
+		"lucide-react": "1.x.x",
+		"uploadthing": "7.x.x"
+	},
+	"peerDependenciesMeta": {
+		"lucide-react": {
+			"optional": true
+		},
+		"uploadthing": {
+			"optional": true
+		}
 	},
 	"devDependencies": {
 		"@fuma-comment/server": "workspace:^",
@@ -52,7 +62,7 @@
 		"react": "^19.2.5",
 		"tailwindcss": "^4.2.4",
 		"tsconfig": "workspace:*",
-		"tsdown": "^0.15.12",
+		"tsdown": "^0.21.10",
 		"typescript": "^6.0.3",
 		"uploadthing": "^7.7.3"
 	},

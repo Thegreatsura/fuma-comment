@@ -66,7 +66,8 @@
 		"next": "^16.2.4",
 		"next-auth": "^4.24.14",
 		"tsconfig": "workspace:*",
-		"tsdown": "^0.15.12",
+		"urlpattern-polyfill": "^10.1.0",
+		"tsdown": "^0.21.10",
 		"typescript": "^6.0.3",
 		"vitest": "^4.1.5"
 	},
@@ -108,7 +109,6 @@
 		}
 	},
 	"dependencies": {
-		"urlpattern-polyfill": "^10.1.0",
 		"zod": "^4.4.1"
 	},
 	"publishConfig": {
