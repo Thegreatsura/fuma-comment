@@ -5,6 +5,7 @@
 			"@/*": ["./*"],
 			"fumadocs-mdx:collections/*": ["./.source/*"]
 		},
+		"target": "esnext",
 		"plugins": [{ "name": "next" }]
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
